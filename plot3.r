@@ -1,5 +1,5 @@
 source("makefile.r")
-png("plot3.png")
+png("plot3.png", width=480,height=480,units='px')
 with(hpc_feb, plot(DTG, Sub_metering_1, type = "line", xlab = "", ylab = "Energy sub metering"))
 with(hpc_feb, lines(DTG, Sub_metering_2, type = "line", col = "red"))
 with(hpc_feb, lines(DTG, Sub_metering_3, type = "line", col = "blue"))

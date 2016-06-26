@@ -1,5 +1,5 @@
 source("makefile.r")
-png("plot4.png")
+png("plot4.png", width=480,height=480,units='px')
 
 par(mfrow = c(2,2))
 
