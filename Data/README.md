@@ -1,0 +1,1 @@
+#WARNING:  Data file is too large for upload to GIT.  In order to run code make sure that the file household_power_consumption.txt is placed in this directory.
